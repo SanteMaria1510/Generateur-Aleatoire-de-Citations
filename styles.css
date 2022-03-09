@@ -1,0 +1,123 @@
+/* body {
+	background-color: #667ed0d4;
+	background-color: black;
+} */
+body {
+	margin: 0;
+	padding: 0;
+	background: #00a08d;
+  }
+
+div {
+	text-align: center;
+}
+
+/*Bouton de recherche*/
+
+
+  .search-box {
+	  position: static;
+	  /* position: relative; */
+	position: fixed;
+	/* top: 50%;*/
+	left: 50%; 
+	transform: translate(-50%, -50%);
+	background: #666666;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+  }
+  .search-box:hover > .search-txt {
+	width: 240px;
+	padding: 0 6px;
+  }
+  .search-box:hover > .search-btn {
+	background: white;
+	color: black;
+  }
+  .search-btn {
+	color: #eeeeee;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #2f3640;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+  }
+  .search-btn > i {
+	font-size: 20px;
+  }
+  .search-txt {
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+	font-weight: bold;
+  }
+
+#title {
+	text-align: center;
+	margin: auto;
+	padding-top: 7%;
+	padding-bottom: 5%;
+	text-transform: capitalize;
+	font-family: "Fredoka One", cursive;
+}
+
+#main {
+	text-align: center;
+	width: 50%;
+	border: 2px solid red;
+	border-radius: 30px;
+	background-color: #e4e4a6;
+}
+
+#citation {
+	font-size: 2.5em;
+	font-family: "acme", sans-serif;
+}
+
+#auteur {
+	text-align: right;
+	font-family: "Concert One", cursive;
+}
+#input{
+	margin-top:2em;
+
+	font-family:"Fredoka One";
+	font-size:1.5em;
+}
+#num{
+	background-color: #e4e4a6;
+	border-radius:20px;
+	border-color:red;
+}
+
+.container {
+	padding: 3%;
+}
+
+
+.btn-block {
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Fredoka One", cursive;
+	width: 30%;
+	text-align: center;
+	opacity:0.5;
+	background-color: #7015b9;
+}
+
